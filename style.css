@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Libre+Bodoni&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+nav  {
+    background: none;
+    height: 4.5rem;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: space-around;
+    justify-items: left;
+    align-self: start;
+    font-size: 20px;
+    color: black;
+    border-bottom: 2px solid black;
+
+}
+ nav .navigation a{
+    margin-left: 25px;
+    position: relative;
+    top: 15px;
+    color: black;
+ }
+ section .one{
+    display: flex;
+    border-bottom: 2px solid black;
+ }
+
+ section .aboutme .long{
+    font-size: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+    padding: 50px;
+    margin-top: 20px;
+ }
+ section .aboutme .para{
+    font-size: 30px;
+    font-family: 'Libre Bodoni', serif;
+    margin-left: 40px;
+ }
+ section .one .sidepic{
+    margin-top: 100px;
+ }
+
+ section .one .aboutme .icons{
+    display: flex;
+    padding-top: 10px;
+    gap : 60px;
+    margin-left: 40px;
+    font-size: 40px;
+    color: black;
+ }
+    section .one .aboutme .icons i{
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 10px;
+    }
+section .one .aboutme .icons .fa-github{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+section .one .aboutme .icons .fa-linkedin{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}section .one .aboutme .icons .fa-facebook{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}section .one .aboutme .icons .fa-twitter{
+    background-color: rgb(34, 34, 240);
+    color: white;
+    cursor: pointer;
+}section .one .aboutme .icons .fa-google{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+section .one .aboutme .buttons{
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+    
+}
+section .one .aboutme .buttons .b1{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(80, 6, 114);
+    font-size: 30px;
+    cursor: pointer;
+}
+section .one .aboutme .buttons .b2{
+    border: 1px solid black;
+    padding : 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    background-color: rgb(80, 6, 114);
+    font-size: 30px;
+    cursor: pointer;
+}
+/*..........................*/
+section .two{
+    display: flex;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+
+}
+
+section .two .text {
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+    opacity: 0;
+    transform: translateX(90%);
+    transition: opacity 0.7s, transform 2s;
+
+}
+section .two:hover .text{
+    opacity: 1;
+    transform: translateX(0);
+}
+section .two .text h1{
+    font-size: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+    padding: 20px;
+}
+section .two .text h2{
+    font-size: 20px;
+    font-family: 'Libre Bodoni', serif;
+    color: rgb(34, 33, 33);
+    word-spacing: 5px;
+}
+section .two .text .batch{
+padding: 20px;
+padding-top: 50px;
+
+}
+section .two .text .batch a{
+display: inline-block;
+margin-right: 50px;
+padding: 10px;
+
+}
+section .two .image{
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+
+section .two .thunder{
+    padding: 10px;
+    line-height: 45px;
+    font-size: 18px;
+    color: rgb(24, 23, 23);
+}
+/*..........................*/
+.three {
+    font-family: 'Calistoga', serif;
+    list-style: none;
+    padding: 0 ;
+    margin: 0;
+    background: white;
+    text-transform: uppercase;
+display: flex;
+border-bottom: 2px solid black;
+
+}
+.three .skil h1{
+    text-align: center;
+    font-size: 50px;
+}
+.three .skil h3{
+   margin: 5px; 
+}
+.three .skil{
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+                0 10px 10px rgba(0,0,0,0.22);
+}
+.three .skil li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.three .skil .bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+                0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.three .skil .bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22); 
+}
+.three .skil .bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+
+} 
+.three .skil .FrontEndDesign{
+    width: 90%;
+    animation: FrontEndDesign 3s;
+}
+.three .skil .Backend{
+    width: 75%;
+    animation: Backend 3s;
+}
+.three .skil .Programming{
+    width: 45%;
+    animation: Programming 3s;
+
+}
+@keyframes FrontEndDesign{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Backend{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes JProgramming{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+.three .image{
+    margin-top: 100px;
+}
+/*..........................*/
+.projects{
+    width: 100%;
+    height: 57rem;
+    border-bottom: 1px solid black;
+}
+.projects .border{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    padding: 20px;
+    
+}
+.projects .border .github{
+  height: 175px;  
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.1),0 10px 10px rgba(0,0,0,0.1);
+  position: relative;
+  cursor: pointer;
+  
+}
+.projects .border .github:hover{
+  
+  box-shadow: 0 14px 28px rgba(0,0,0,0.6),0 10px 10px rgba(0,0,0,0.6);
+  
+
+}
+.projects .border .github h2{
+    padding: 1rem 0 0 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.projects .border .github h3{
+    padding: 0.5rem 0 0 1rem;
+font-size: 1.5rem;
+font-weight: 300;
+
+}
+.projects .border .github p{
+    padding: 0.5rem 0 0 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    position: absolute;
+    top: 8rem;
+
+}
+.projects .border .github p span{
+    margin-left: 330px;
+    
+}
+.projects .topic{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.projects .button .b{
+    padding: 20px;
+    margin-left: 500px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(80, 6, 114);
+    font-size: 30px;
+    cursor: pointer;
+    width: 300px;
+    align-content: center;
+    color: white;
+}
+/*..........................*/
+.ContactMe .social{
+    display: flex;
+    font-size: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+.ContactMe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50rem;
+    gap: 50px;
+
+}
+
+.ContactMe .text{
+margin-top: -350px;
+margin-left: 40px;
+}
+.ContactMe .text h1{
+padding: 20px;
+font-size: 50px;
+
+}
+.ContactMe .text h2{
+    padding: 15px;
+}
+.ContactMe .text h3{
+    padding: 15px;
+}
+.ContactMe .text p{
+    padding: 20px;
+}
+
+.ContactMe .social  i{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+}
+.ContactMe .social .fa-github{
+background-color: black;
+color: white;
+cursor: pointer;
+}
+.ContactMe .social .fa-linkedin{
+background-color: blue;
+color: white;
+cursor: pointer;
+} .ContactMe .social .fa-facebook{
+background-color: blue;
+color: white;
+cursor: pointer;
+} .ContactMe .social .fa-twitter{
+background-color: rgb(34, 34, 240);
+color: white;
+cursor: pointer;
+} .ContactMe .social .fa-google{
+background-color: red;
+color: white;
+cursor: pointer;
+}
+
+.ContactMe .mypic{
+    position: relative;
+    top:-8rem;
+    left:0px;
+    padding: 2rem;
+    position: relative;
+    right: 7rem;
+
+    border-radius: 50%;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    transition: 0.4s;
+    background: linear-gradient(to top , rgb(255, 187, 0),pink);
+    
+}
+
+.ContactMe .mypic:hover{
+    border-radius: 20px;
+    height: 320px;
+
+}
+
+.ContactMe .mypic img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    z-index: 2;
+    transition: 0.4s;
+}
+
+.ContactMe .mypic:hover .dis {
+    color: rgb(3, 3, 39);
+}
+
+.ContactMe .mypic:hover img{
+    border-radius: 20px;
+    margin-top: -230px;
+}
+
+.ContactMe .dis{
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    transition: 0.4s;
+    color: rgb(255, 196, 0);
+    
+}
